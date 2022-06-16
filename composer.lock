@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61bc8e207b2d49062a507d6ae787530d",
+    "content-hash": "584ec46ec396a385e5d1cb3fa50e09a3",
     "packages": [
         {
             "name": "brick/math",
@@ -68,16 +68,16 @@
         },
         {
             "name": "chrisguitarguy/request-id-bundle",
-            "version": "v5.0.0",
+            "version": "dev-monolog3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/chrisguitarguy/RequestIdBundle.git",
-                "reference": "58c3137fec460096bbe9cb1073f2a3106cd037d9"
+                "url": "https://github.com/morawskim/RequestIdBundle.git",
+                "reference": "0d135226f73c5161f17f774223cfe2fc21de142b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisguitarguy/RequestIdBundle/zipball/58c3137fec460096bbe9cb1073f2a3106cd037d9",
-                "reference": "58c3137fec460096bbe9cb1073f2a3106cd037d9",
+                "url": "https://api.github.com/repos/morawskim/RequestIdBundle/zipball/0d135226f73c5161f17f774223cfe2fc21de142b",
+                "reference": "0d135226f73c5161f17f774223cfe2fc21de142b",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,6 @@
                     "Chrisguitarguy\\RequestId\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -116,10 +115,9 @@
                 "symfony"
             ],
             "support": {
-                "issues": "https://github.com/chrisguitarguy/RequestIdBundle/issues",
-                "source": "https://github.com/chrisguitarguy/RequestIdBundle/tree/v5.0.0"
+                "source": "https://github.com/morawskim/RequestIdBundle/tree/monolog3"
             },
-            "time": "2022-04-07T14:12:15+00:00"
+            "time": "2022-06-16T06:13:31+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2916,7 +2914,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "chrisguitarguy/request-id-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
